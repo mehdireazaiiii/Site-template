@@ -1,0 +1,278 @@
+@font-face {
+    font-family: dastnevis;
+    src: url(../font/danstevis/danstevis.otf);
+
+
+}
+
+@font-face {
+    font-family: gandom;
+    src: url(../font/Gandom.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: gandom;
+}
+
+///////////////////////////////////////////////////////(((***div***)))//////////////////////////////////////////
+div.img_header {
+    clip-path: polygon(50% 0%, 84% 0, 100% 0, 100% 70%, 100% 90%, 52% 100%, 0 89%, 0% 70%, 0% 35%, 0 0);
+    background: url(../img/North-nature-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+
+    div.input-group {
+        border-radius: 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+        padding-top: 50px;
+        font-family: dastnevis;
+    }
+
+    h5 {
+        font-size: 30px;
+        font-family: dastnevis;
+    }
+
+    ///////////////////////////////////////////////////////(((***btn***)))//////////////////////////////////////////
+    button#btnheader_search {
+        border-radius: 2px;
+    }
+
+    ///////////////////////////////////////////////////////(((***input***)))//////////////////////////////////////////
+    input#inputheader_search {
+        border-radius: 2px;
+    }
+}
+
+// ////////////////////////////////////////div/////////////////////////////////////////////
+div.body {
+    margin-bottom: -10%;
+    margin-top: -8%;
+
+    div.pishnahadat {
+        div.card_pish {
+            cursor: pointer;
+        }
+
+        div.overf {
+            transition: all 1.5s ease-in-out;
+            background: -webkit-linear-gradient(left, rgb(0, 238, 255), rgb(0, 4, 255));
+            overflow: hidden;
+            outline: 5px solid rgb(255, 255, 255);
+            outline-offset: -190px;
+
+            img.img_pish {
+                transition: all 1s ease-in-out;
+            }
+
+            img.img_pish:hover {
+                transform: scale(1.2);
+                opacity: 0.5;
+                outline: 10px red;
+
+            }
+        }
+
+        div.overf:hover {
+            outline-offset: -30px;
+        }
+    }
+
+    svg.svg {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10%;
+    }
+}
+
+div.aboutmy {
+    clip-path: polygon(5% 0, 100% 0, 94% 100%, 0 100%);
+    background: url(../img/Colorful-nature-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 150%;
+    width: 100%;
+
+    h4 {
+        letter-spacing: 2px;
+    }
+
+    img.img-icon-about {
+        background-color: rgba(255, 0, 242, 0.356);
+    }
+
+    div.box_about {
+        clip-path: polygon(10% 0, 100% 0%, 92% 100%, 0% 100%);
+        background: -webkit-linear-gradient(left, #ffa4ff85, #8fe5ff);
+        border-radius: 15px;
+        transition: all 1s ease-in-out !important;
+        border-top: 0px solid rgba(0, 247, 255, 0.39);
+        cursor: pointer;
+    }
+}
+
+div.post {
+    cursor: pointer;
+}
+
+div.card_post {
+    box-shadow: 0px 10px 30px rgba(158, 158, 158, 0.842);
+    @extend .card_pish;
+
+    div.overfpish {
+        transition: all 1.5s ease-in-out;
+        background: -webkit-linear-gradient(left, rgb(0, 238, 255), rgb(0, 4, 255));
+        overflow: hidden;
+        outline: 5px solid rgb(255, 255, 255);
+        outline-offset: -190px;
+        @extend div.overf;
+
+        img.img_post {
+            transition: all 2s ease-in-out;
+            @extend img.img_pish;
+        }
+
+        img.img_post:hover {
+            transform: scale(1.5);
+            opacity: 0.5;
+            outline: 10px red;
+        }
+    }
+
+    div.dfp {
+        padding: 12.5%;
+    }
+
+}
+
+div.motekhases {
+    margin-top: 100px;
+    background: url(../img/90629f11-7164-4162-9028-f2e367db5bf2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    animation-name: zoom;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+    p.pmo {
+        line-height: 100px;
+        font-size: 39px;
+    }
+
+    div.divcolmo {
+        padding-bottom: 180px;
+        padding-top: 90px;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+div.moghasli {
+    background: url(../img/Hamgardi_5008uy97g7D.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+
+    p.pmogh {
+        font-size: 45px;
+    }
+}
+
+// ////////////////////////////////////////nav/////////////////////////////////////////////
+
+nav {
+    a.nav-link {
+        font-size: 110% !important;
+    }
+
+    h1.navbar-brand {
+        font-size: 150%;
+    }
+}
+
+// ////////////////////////////////////////p/////////////////////////////////////////////
+p.p_post {
+    font-size: 250%;
+    font-family: dastnevis;
+    font-weight: bold;
+}
+
+p.pnazar {
+    font-size: 50px;
+    padding-top: 100px;
+    font-family: dastnevis;
+    color: rgb(0, 48, 110);
+}
+
+p.pm {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+// ///////////////////////////////////////svg//////////////////////////////////////////////
+svg.svg1 {
+    margin-top: -6%;
+    opacity: 0.5;
+}
+
+// ///////////////////////////////////////btn//////////////////////////////////////////////
+button.btnmo {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+button.moghbtn {
+    @extend .btnmo;
+}
+
+button.btnm {
+    @extend .btnmo;
+}
+
+// ///////////////////////////////////////btn//////////////////////////////////////////////
+img.imgm {
+    border-radius: 50%;
+    border: 4px solid rgb(192, 192, 192);
+}
+// ///////////////////////////////////////i//////////////////////////////////////////////
+i.icon_er{
+    font-size: 25px;
+    transition: all 1s ease-in-out;
+}
+i.icon_er:hover{
+    color: #00ff00 !important;
+}
+// ///////////////////////////////////////i//////////////////////////////////////////////
+h2.name_brand_footer{
+    font-family: dastnevis;
+    color: royalblue;
+    transition: all 1s ease;
+}

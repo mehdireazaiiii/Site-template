@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIP</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/scss.css">
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+</head>
+
+<body>
+    <!-- ///////////////////////////////////////////////////////////((**navbar**))//////////////////////////////// -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <h1 class="navbar-brand  float-right">نام شرکت</h1>
+        <button class="navbar-toggler" data-target="#my_col" aria-controls="my_col" data-toggle="collapse"><i
+                class="navbar-toggler-icon"></i></button>
+        <div class="container">
+            <div class="collapse navbar-collapse" id="my_col">
+                <div class="navbar-nav float-left container">
+                    <a href="#" class="nav-link nav-item">خانه</a>
+                    <a href="#" class="nav-link nav-item ">خانه</a>
+                    <a href="#" class="nav-link nav-item ">خانه</a>
+                    <a href="#" class="nav-link nav-item ">خانه</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ///////////////////////////////////////////////////////////((**header**))//////////////////////////////// -->
+    <div class="container-fluid img_header">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-5 mb-5 pb-5">
+                <h3 class="text-center text-white pb-1">از تعطیلات رویایی خود لذت ببرید</h3>
+                <h5 class=" pb-5 text-center text-white">سفر به هر گوشه از جهان </h5>
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control w-25" id="inputheader_search" placeholder="جستجو">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-info" id="btnheader_search"><span
+                                    class="fa fa-search"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////////////////////////////////////((**pishnahadat**))//////////////////////////////// -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="svg1" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="0.1"
+            d="M0,256L60,213.3C120,171,240,85,360,85.3C480,85,600,171,720,186.7C840,203,960,149,1080,149.3C1200,149,1320,203,1380,229.3L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+        </path>
+    </svg>
+    <div class="container-fluid body">
+        <div class="container-بمعهی pishnahadat">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center display-4 pb-5" style="font-family: dastnevis;">بهترین پیشنهادات</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3 pt-3 pt-sm-0">
+                    <div class="card card_pish">
+                        <div class="overf"><img src="img/estanbol.jpg" class="img-fluid img_pish w-100" alt=""></div>
+                        <div class="card-body text-center">
+                            <p class="text-center">استانبول</p>
+                        </div>
+                        <div class="card-footer text-center"><button class="btn btn-success text-center w-75">seen <span
+                                    class="fa fa-eye"></span></button></div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-md-3 pt-3 pt-sm-0">
+                    <div class="card card_pish">
+                        <div class="overf"><img src="img/spain.jpg" class="img-fluid img_pish w-100" alt=""></div>
+                        <div class="card-body text-center">
+                            <p class="text-center">اسپانیا</p>
+                        </div>
+                        <div class="card-footer text-center"><button class="btn btn-success text-center w-75">seen <span
+                                    class="fa fa-eye"></span></button></div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-md-3 pt-3 pt-sm-0">
+                    <div class="card card_pish">
+                        <div class="overf"><img src="img/andonezi.jpg" class="img-fluid img_pish w-100" alt=""></div>
+                        <div class="card-body text-center">
+                            <p class="text-center">اندونزی</p>
+                        </div>
+                        <div class="card-footer text-center"><button class="btn btn-success text-center w-75">seen <span
+                                    class="fa fa-eye"></span></button></div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-md-3 pt-3 pt-sm-0">
+                    <div class="card card_pish">
+                        <div class="overf"><img src="img/italia.jpg" class="img-fluid img_pish w-100" alt=""></div>
+                        <div class="card-body text-center">
+                            <p class="text-center">ایتالیا</p>
+                        </div>
+                        <div class="card-footer text-center"><button class="btn btn-success text-center w-75">seen <span
+                                    class="fa fa-eye"></span></button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#00e1ff" fill-opacity="0.04"
+            d="M0,192L48,197.3C96,203,192,213,288,181.3C384,149,480,75,576,42.7C672,11,768,21,864,74.7C960,128,1056,224,1152,229.3C1248,235,1344,149,1392,106.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+    <!-- ///////////////////////////////////////////////////////////((**about**))//////////////////////////////// -->
+    <div style="overflow: hidden;">
+        <div class="container-fluid aboutmy">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="text-center text-white pt-5 mt-3">چرا برای مسافرت خود باید ما را انتخاب کنید</h4>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-around pt-5">
+                    <div class="col-md-3 mb-5 text-center  box_about p-5">
+                        <img src="https://theme20.mywebzi.ir/uploads/20c7a462b5ba4983aad16a7e60ff2c8e.w_35,h_35,r_k.png"
+                            class="rounded-circle text-center p-2 img-icon-about" alt="">
+                        <h5 class="text-center text-white pt-3">سازگاری با شخصیت افراد</h5>
+                        <p class="text-cente text-dark ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                            استفاده از
+                            طراحان </p>
+                    </div>
+                    <div class="col-md-3 mb-5 text-center  box_about p-5">
+                        <img src="https://theme20.mywebzi.ir/uploads/30adff94a8514f6bb8215a736783ff71.w_35,h_35,r_k.png"
+                            class="rounded-circle text-center p-2 img-icon-about" alt="">
+                        <h5 class="text-center text-white pt-3">سازگاری با شخصیت افراد</h5>
+                        <p class="text-cente text-dark ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                            استفاده از
+                            طراحان </p>
+                    </div>
+                    <div class="col-md-3 mb-5 text-center  box_about p-5">
+                        <img src="https://theme20.mywebzi.ir/uploads/05fb2582491342b1aae0d774f8c80d1a.w_35,h_35,r_k.png"
+                            class="rounded-circle text-center p-2 img-icon-about" alt="">
+                        <h5 class="text-center text-white pt-3">سازگاری با شخصیت افراد</h5>
+                        <p class="text-cente text-dark ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                            استفاده از
+                            طراحان </p>
+                    </div>
+                </div>
+                <!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\\//\/\/\/\/\/\/\\//\/\/\/\/ -->
+                <div class="row d-flex justify-content-around pt-5">
+                    <div class="col-md-3 mb-5  text-center  box_about p-5">
+                        <img src="https://theme20.mywebzi.ir/uploads/ff6d777ffa8e4a49be46505d239b2a71.w_35,h_35,r_k.png"
+                            class="rounded-circle text-center p-2 img-icon-about" alt="">
+                        <h5 class="text-center text-white pt-3">سازگاری با شخصیت افراد</h5>
+                        <p class="text-cente text-dark ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                            استفاده از
+                            طراحان </p>
+                    </div>
+
+                    <div class="col-md-3 mb-5  text-center  box_about p-5">
+                        <img src="https://theme20.mywebzi.ir/uploads/b343785c19f84e2395261cab719a7ff6.w_35,h_35,r_k.png"
+                            class="rounded-circle text-center p-2 img-icon-about" alt="">
+                        <h5 class="text-center text-white pt-3">سازگاری با شخصیت افراد</h5>
+                        <p class="text-cente text-dark ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                            استفاده از
+                            طراحان </p>
+                    </div>
+                    <div class="col-md-3 mb-5  text-center  box_about p-5">
+                        <img src="https://theme20.mywebzi.ir/uploads/11f09d186cd04949b2aca269886eb455.w_30,h_35,r_k.png"
+                            class="rounded-circle text-center p-2 img-icon-about" alt="">
+                        <h5 class="text-center text-white  pt-3">سازگاری با شخصیت افراد</h5>
+                        <p class="text-cente dark ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                            استفاده از
+                            طراحان </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////////////////////////////////(((***post***)))\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center p_post">پست های اخیر</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 post pt-sm-0 pt-4 ">
+                <div class="card card_post">
+                    <div class="overfpish"><img src="img/torento.jpg" class="img-fluid img_post" alt=""></div>
+                    <div class="card-footer dfp text-center">
+                        <p class="text-center pt-3">تور ترنتو</p>
+                        <button class="btn btn-outline-success w-75">بیشتر..</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 post pt-sm-0 pt-4 ">
+                <div class="card card_post">
+                    <div class="overfpish"><img src="img/festival.jpg" class="img-fluid img_post" alt=""></div>
+                    <div class="card-footer dfp text-center">
+                        <p class="text-center pt-3">فستیوال هایه امارات 2020</p>
+                        <button class="btn btn-outline-success w-75">بیشتر..</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 post pt-sm-0 pt-4 ">
+                <div class="card card_post">
+                    <div class="overfpish"><img src="img/behtarinmaghsad.jpg" class="img-fluid img_post" alt=""></div>
+                    <div class="card-footer dfp text-center">
+                        <p class="text-center pt-3">بهترین مقصد هایه سفر</p>
+                        <button class="btn btn-outline-success w-75">بیشتر..</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="overflow: hidden;">
+        <div class="container-fluid motekhases ">
+            <div class="row justify-content-center">
+                <div class="col-md-10 text-center divcolmo">
+                    <p class=" pt-5 mt-5 pmo text-center text-white">یک سفر کامل را با متخصصان حرفه ای و با
+                        تجربه در این زمینه تجربه کنید</p>
+
+                    <button class="btn btn-lg btnmo">مشاهده بیشتر</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1"
+            d="M0,160L0,224L60,224L60,256L120,256L120,96L180,96L180,256L240,256L240,160L300,160L300,160L360,160L360,64L420,64L420,0L480,0L480,64L540,64L540,32L600,32L600,256L660,256L660,288L720,288L720,128L780,128L780,256L840,256L840,64L900,64L900,96L960,96L960,160L1020,160L1020,32L1080,32L1080,160L1140,160L1140,128L1200,128L1200,224L1260,224L1260,128L1320,128L1320,64L1380,64L1380,128L1440,128L1440,0L1380,0L1380,0L1320,0L1320,0L1260,0L1260,0L1200,0L1200,0L1140,0L1140,0L1080,0L1080,0L1020,0L1020,0L960,0L960,0L900,0L900,0L840,0L840,0L780,0L780,0L720,0L720,0L660,0L660,0L600,0L600,0L540,0L540,0L480,0L480,0L420,0L420,0L360,0L360,0L300,0L300,0L240,0L240,0L180,0L180,0L120,0L120,0L60,0L60,0L0,0L0,0Z">
+        </path>
+    </svg>
+    <div class="container pt-5 mt-5">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img src="https://theme20.mywebzi.ir/uploads/06de5137753d49bc904987e36f812732.w_57,h_68,r_k.png"
+                    class="img-fluid text-center" alt="">
+                <p class="text-center pt-3 font-weight-bold">623744</p>
+                <p class="text-center">مشتری هایه راضی</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="https://theme20.mywebzi.ir/uploads/41fc017c3fca40a993df89dd974825d7.w_100,h_74,r_k.png"
+                    class="img-fluid text-center" alt="">
+                <p class="text-center pt-3 font-weight-bold">623744</p>
+                <p class="text-center">تور هایه عالی</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="https://theme20.mywebzi.ir/uploads/a1527dcddece49cb8d6a61af95ea50bb.w_73,h_71,r_k.png"
+                    class="img-fluid text-center" alt="">
+                <p class="text-center pt-3 font-weight-bold">623744</p>
+                <p class="text-center">مشتری هایه راضی</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="https://theme20.mywebzi.ir/uploads/9f2951a0d6684b00ae44bf9014b32a82.w_78,h_69,r_k.png"
+                    class="img-fluid text-center" alt="">
+                <p class="text-center pt-3 font-weight-bold">623744</p>
+                <p class="text-center">سوالات پاسخ داده شده</p>
+            </div>
+
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#786fff" fill-opacity="1"
+            d="M0,160L0,224L60,224L60,256L120,256L120,96L180,96L180,256L240,256L240,160L300,160L300,160L360,160L360,64L420,64L420,0L480,0L480,64L540,64L540,32L600,32L600,256L660,256L660,288L720,288L720,128L780,128L780,256L840,256L840,64L900,64L900,96L960,96L960,160L1020,160L1020,32L1080,32L1080,160L1140,160L1140,128L1200,128L1200,224L1260,224L1260,128L1320,128L1320,64L1380,64L1380,128L1440,128L1440,320L1380,320L1380,320L1320,320L1320,320L1260,320L1260,320L1200,320L1200,320L1140,320L1140,320L1080,320L1080,320L1020,320L1020,320L960,320L960,320L900,320L900,320L840,320L840,320L780,320L780,320L720,320L720,320L660,320L660,320L600,320L600,320L540,320L540,320L480,320L480,320L420,320L420,320L360,320L360,320L300,320L300,320L240,320L240,320L180,320L180,320L120,320L120,320L60,320L60,320L0,320L0,320Z">
+        </path>
+    </svg>
+    <div class="container-fluid moghasli">
+        <div class="container">
+            <div class="row d-flex justify-content-center py-5">
+                <div class="col-md-8  pt-5 mt-5 text-center">
+                    <p class="pmogh text-center text-white ">سریع ترین راه برای مقایسه و رزرو پرواز های مناسب</p>
+                    <button class="btn btn-lg moghbtn mt-5">پیشنهاد هایه بیشتر</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-md-12">
+                <p class="text-center pnazar pb-5">نظر مشتریان</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="img/soltan.jpg" class="img-fluid   w-25 imgm" alt="">
+                <p class="tect-center text-center pm">مهدی رضایی</p>
+                <p class="text-center text-secondary">
+                    ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
+                    و
+                    متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و
+                    آینده
+                    شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                    الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ا
+                </p>
+
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/soltan.jpg" class="img-fluid   w-25 imgm" alt="">
+                <p class="tect-center text-center pm">مهدی رضایی</p>
+                <p class="text-center text-secondary">
+                    ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
+                    و
+                    متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و
+                    آینده
+                    شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                    الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ا
+                </p>
+
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/soltan.jpg" class="img-fluid   w-25 imgm" alt="">
+                <p class="tect-center text-center pm">مهدی رضایی</p>
+                <p class="text-center text-secondary">
+                    ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
+                    و
+                    متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و
+                    آینده
+                    شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                    الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ا
+                </p>
+
+            </div>
+        </div>
+        <div class="row pb-5 d-flex justify-content-center pt-5">
+            <div class="col-md-12 text-center">
+                <button class="btn text-center btn-lg btnm">ادامه مطلب</button>
+            </div>
+        </div>
+    </div>
+    <!-- //////////////////////////////////////////////////////(((***footer***)))/./././././././././././././././././././././././ -->
+    <div class="container-fluid h-100 bg-dark">
+        <div class="container">
+            <div class="row h-100  py-5">
+                <div class="col-md-4 text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="display-4 name_brand_footer" id="brand_footer">نام شرکت</h2>
+                        </div>
+                        <div class="col-md-12 pt-3">
+                            <p class="text-secondary">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / -->
+                <div class="col-md-4  text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-light ">اطلاعات تماس</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 pt-4 ">
+                            <span class="fa fa-phone text-secondary pl-1"></span>
+                            <p class="d-inline text-secondary">09038517751</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 py-4">
+                            <span class="fa fa-envelope-o text-secondary pl-2"></span>
+                            <p class="d-inline text-secondary">email@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / -->
+                <div class="col-md-4 text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-light">مارا دنبال کنید</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#" class="text-light text-center"><i
+                                    class="fa icon_er text-secondary fa-facebook"></i></a>
+                            <a href="#" class="text-light px-3 text-center"><i
+                                    class="fa icon_er text-secondary fa-twitter"></i></a>
+                            <a href="#" class="text-light pl-2  text-center"><i
+                                    class="fa icon_er text-secondary fa-instagram"></i></a>
+                            <a href="#" class="text-light pl-2  text-center"><i
+                                    class="fa icon_er text-secondary fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js"></script>
+<script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/js.js"></script>
+
+</html>
